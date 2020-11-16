@@ -35,7 +35,8 @@ INSERT into attraction VALUES
   ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
 INSERT into attraction VALUES 
   ('8','Olive Garden','Food','28-FEB-2017','open','1');
-
+INSERT into attraction VALUES 
+  ('11','PF Changs China Bistro','Food','3-AUG-2001','open','4');
   
 -- Park Employees
 INSERT INTO employee VALUES 
@@ -47,33 +48,33 @@ INSERT INTO employee VALUES
 INSERT INTO employee VALUES 
   ('4','Ron','J','Swanson','Custodian','25-MAR-1969','34 Miracle Street','100000');
 INSERT INTO employee VALUES 
-  ('5','Albert','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','120000');
+  ('5','Albert','B','Henderson','Ride Operator','5-NOV-1966','490 Lancaster Ave','120000');
 INSERT INTO employee VALUES 
-  ('6','Thomas','R','Smith','Manager','15-SEP-1961','104 Main Street','140000');
+  ('6','Thomas','R','Smith','Ride Operator','15-SEP-1961','104 Main Street','140000');
 INSERT INTO employee VALUES 
-  ('7','Andrew','P','Carson','Manager','24-JAN-1975','64 Zoo Lane','100000');
+  ('7','Andrew','P','Carson','Ride Operator','24-JAN-1975','64 Zoo Lane','100000');
 INSERT INTO employee VALUES 
   ('8','Karen','K','Johnson','Ride Operator','23-JUN-1981','243 Springfield Ave','55000');
 INSERT INTO employee VALUES 
   ('9','Susan','L','Jones','Ride Operator','1-APR-1991','79 Park Ave','50000');  
 INSERT INTO employee VALUES 
-  ('10','Frank','H','James','Chef','25-OCT-1979','56 Mountain Ave','45000');
+  ('10','Gordon','J','Ramsay','Chef','8-NOV-1966','56 Mountain Ave','45000');
 
 -- Employee Assignments
 INSERT INTO works_on VALUES ('1','1', 4);
 INSERT INTO works_on VALUES ('8','5', 9);
 INSERT INTO works_on VALUES ('9','1', 3);
 INSERT INTO works_on VALUES ('1','5', 4);
-INSERT INTO works_on VALUES ('9','5', 5);
-
+INSERT INTO works_on VALUES ('9','10', 5);
 INSERT INTO works_on VALUES ('5','9', 8);
 INSERT INTO works_on VALUES ('6','2', 4);
 INSERT INTO works_on VALUES ('7','10', 9);
-INSERT INTO works_on VALUES ('6','10', 5);
+INSERT INTO works_on VALUES ('6','5', 5);
 
-INSERT INTO works_on VALUES ('2','4', 8);
+INSERT INTO works_on VALUES ('2','4', 4);
 INSERT INTO works_on VALUES ('10','7', 3);
 INSERT INTO works_on VALUES ('10','8', 5);
+INSERT INTO works_on VALUES ('2','11', 4);
 
 INSERT INTO works_on VALUES ('3','9', 7);
 INSERT INTO works_on VALUES ('4','5', 6);
