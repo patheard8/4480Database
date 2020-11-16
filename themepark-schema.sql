@@ -28,7 +28,7 @@ CREATE TABLE ATTRACTION(
     CurrStatus      VarChar(15)     NOT NULL, --active, inactive, undermaintenance
     ZoneID      Int     NOT NULL,
     CONSTRAINT       ATTRACTION_PK     PRIMARY KEY(AttractionID),
-    FOREIGN KEY (ZoneID) REFERENCES Zone(ZoneID)
+    FOREIGN KEY (ZoneID) REFERENCES Park_Zone(ZoneID)
     );
     
 CREATE TABLE EMPLOYEE(
