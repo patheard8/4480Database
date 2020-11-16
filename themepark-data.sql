@@ -1,9 +1,9 @@
 /************************************************************************/
-/*																		*/
-/*	CSC 4480 Organization of Databases - Final Project					*/
-/*	Louis Pitingolo, Henry Zinn, Pat Heard								*/
-/*	Theme Park Data                     								*/
-/*																		*/
+/*                                                                      */
+/*  CSC 4480 Organization of Databases - Final Project                  */
+/*  Louis Pitingolo, Henry Zinn, Pat Heard                              */
+/*  Theme Park Data                                                     */
+/*                                                                      */
 /************************************************************************/
 
 -- Park Zones
