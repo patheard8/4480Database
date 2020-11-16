@@ -8,7 +8,7 @@
 
 -- Query 1: Employees at Glove World
 select E.EmployeeId, E.FirstName, E.LastName
-from PEmployee E left outer join Works_On W on E.EmployeeId = W.EmployeeId
+from Employee E left outer join Works_On W on E.EmployeeId = W.EmployeeId
 where W.AttractionId in (select A.AttractionId
                         from Attraction A
                         where A.ZoneId = '4')
