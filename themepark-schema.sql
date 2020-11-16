@@ -62,6 +62,7 @@ CREATE TABLE ActivityLog(
 CREATE TABLE Works_On(
     EmployeeID  Int     NOT NULL,
     AttractionID    Int     NOT NULL,
+    ShiftHours     Int     NOT NULL,
     FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID),
     FOREIGN KEY (AttractionID) REFERENCES Attraction(AttractionID)
     );
