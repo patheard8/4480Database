@@ -1,10 +1,10 @@
-/************************************************************************/
-/*                                                                      */
-/*  CSC 4480 Organization of Databases - Final Project                  */
-/*  Louis Pitingolo, Henry Zinn, Pat Heard                              */
-/*  Theme Park Data                                                     */
-/*                                                                      */
-/************************************************************************/
+/**************************************************************/
+/*                                                            */
+/*    CSC 4480 Organization of Databases - Final Project      */
+/*    Louis Pitingolo, Henry Zinn, Pat Heard                  */
+/*    Theme Park Data                                         */
+/*                                                            */
+/**************************************************************/
 
 -- Park Zones
 INSERT INTO park_zone VALUES ('1','Cedar Rapids', '20-JUL-2015');
@@ -16,23 +16,26 @@ INSERT INTO park_zone VALUES ('4','Glove World', '15-MAR-2000');
 INSERT into attraction VALUES 
   ('1','Fiery Fist o Pain','Coaster','5-JUL-2007','open','4');
 INSERT into attraction VALUES 
-  ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
-INSERT into attraction VALUES 
   ('3','El Toro','Coaster','4-AUG-1990','closed','3');  
 INSERT into attraction VALUES 
-  ('4','Dippin Dots','Food','4-JUL-1985','open','3'); 
-INSERT into attraction VALUES 
   ('5','Mystic Force','Coaster','16-SEP-1977','open','2'); 
+
+INSERT into attraction VALUES 
+  ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
 INSERT into attraction VALUES 
   ('6','Jungle Fury Safari','Family Ride','21-OCT-1979','closed','2'); 
-INSERT into attraction VALUES 
-  ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
-INSERT into attraction VALUES 
-  ('8','Olive Garden','Food','28-FEB-2017','open','1');
 INSERT into attraction VALUES 
   ('9','Ferris Wheel','Family Ride','27-MAR-2016','open','1');
 INSERT into attraction VALUES 
   ('10','Bumper Cars','Family Ride','12-DEC-2017','open','1');
+
+INSERT into attraction VALUES 
+  ('4','Dippin Dots','Food','4-JUL-1985','open','3'); 
+INSERT into attraction VALUES 
+  ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
+INSERT into attraction VALUES 
+  ('8','Olive Garden','Food','28-FEB-2017','open','1');
+
   
 -- Park Employees
 INSERT INTO employee VALUES 
@@ -56,21 +59,35 @@ INSERT INTO employee VALUES
 INSERT INTO employee VALUES 
   ('10','Frank','H','James','Chef','25-OCT-1979','56 Mountain Ave','45000');
 
--- 
+/*
+operators  1 8  9
+managers   5 6  7 
+chefs      2 10
+custodians 3 4
+
+coaster 1 3x 5
+ride 2 6x 9 10
+food 4 7 8 
+*/
 -- Employee Assignments
 INSERT INTO works_on VALUES ('1','1', 10);
-INSERT INTO works_on VALUES ('2','4', 8);
-INSERT INTO works_on VALUES ('3','7', 6);
-INSERT INTO works_on VALUES ('4','5', 9);
-INSERT INTO works_on VALUES ('5','6', 14);
+INSERT INTO works_on VALUES ('8','5', 11);
+INSERT INTO works_on VALUES ('9','1', 9);
+INSERT INTO works_on VALUES ('1','5', 12);
+INSERT INTO works_on VALUES ('9','5', 8);
+
+INSERT INTO works_on VALUES ('5','9', 14);
 INSERT INTO works_on VALUES ('6','2', 4);
-INSERT INTO works_on VALUES ('7','1', 12);
-INSERT INTO works_on VALUES ('8','10', 11);
-INSERT INTO works_on VALUES ('10','4', 10);
-INSERT INTO works_on VALUES ('10','1', 8);
-INSERT INTO works_on VALUES ('10','7', 10);
+INSERT INTO works_on VALUES ('7','10', 12);
+INSERT INTO works_on VALUES ('6','10', 12);
+
+INSERT INTO works_on VALUES ('2','4', 8);
+INSERT INTO works_on VALUES ('10','7', 8);
 INSERT INTO works_on VALUES ('10','8', 10);
-INSERT INTO works_on VALUES ('3','8', 6);
+
+INSERT INTO works_on VALUES ('3','9', 6);
+INSERT INTO works_on VALUES ('4','5', 9);
+INSERT INTO works_on VALUES ('4','7', 10);
 
 -- Park Customers
 INSERT INTO customer VALUES ('1','John','Smith','Seasonal Pass');
@@ -101,5 +118,3 @@ INSERT INTO activitylog VALUES ('1','5','21-JUL-2020 4:36:00');
 INSERT INTO activitylog VALUES ('2','5','21-JUL-2020 5:29:00');
 INSERT INTO activitylog VALUES ('10','5','21-JUL-2020 5:51:00');
 INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 5:51:00');
-
-
