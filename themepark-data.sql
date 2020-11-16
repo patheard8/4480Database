@@ -93,20 +93,19 @@ INSERT INTO customer VALUES ('9','Eugene','Krabs','Seasonal Pass');
 INSERT INTO customer VALUES ('10','Sheldon','Plankton','Day Pass');
 
 -- Guest Activity Log
-INSERT INTO activitylog VALUES ('1','4',TO_DATE('2020/07/21 12:20:00', 'yyyy/mm/dd hh24:mi:ss'));
-/*INSERT INTO activitylog VALUES ('4','1','21-JUL-2020 12:43:00');
-INSERT INTO activitylog VALUES ('7','2','21-JUL-2020 12:57:00');
-INSERT INTO activitylog VALUES ('3','6','21-JUL-2020 1:10:00');
-INSERT INTO activitylog VALUES ('10','5','21-JUL-2020 1:16:00');
-INSERT INTO activitylog VALUES ('8','5','21-JUL-2020 1:50:00');
-INSERT INTO activitylog VALUES ('4','5','21-JUL-2020 2:23:00');
-INSERT INTO activitylog VALUES ('5','5','21-JUL-2020 2:44:00');
-INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 3:08:00');
-INSERT INTO activitylog VALUES ('9','5','21-JUL-2020 3:19:00');
-INSERT INTO activitylog VALUES ('3','5','21-JUL-2020 3:36:00');
-INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 4:20:00');
-INSERT INTO activitylog VALUES ('1','5','21-JUL-2020 4:36:00');
-INSERT INTO activitylog VALUES ('2','5','21-JUL-2020 5:29:00');
-INSERT INTO activitylog VALUES ('10','5','21-JUL-2020 5:51:00');
-INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 5:51:00');
-
+INSERT INTO activitylog VALUES ('1','4',TO_DATE('21-JUL-2020 12:20:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('4','1',TO_DATE('21-JUL-2020 12:43:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('7','2',TO_DATE('21-JUL-2020 12:57:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('3','6',TO_DATE('21-JUL-2020 13:10:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('10','5',TO_DATE('21-JUL-2020 13:16:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('8','5',TO_DATE('21-JUL-2020 13:50:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('4','5',TO_DATE('21-JUL-2020 14:23:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('5','5',TO_DATE('21-JUL-2020 14:44:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('6','5',TO_DATE('21-JUL-2020 15:08:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('9','5',TO_DATE('21-JUL-2020 15:19:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('3','5',TO_DATE('21-JUL-2020 15:36:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('6','5',TO_DATE('21-JUL-2020 16:20:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('1','5',TO_DATE('21-JUL-2020 16:36:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('2','5',TO_DATE('21-JUL-2020 17:29:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('10','5',TO_DATE('21-JUL-2020 17:51:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('6','5',TO_DATE('21-JUL-2020 17:51:00','dd-MON-yyyy hh24:mi:ss'));
