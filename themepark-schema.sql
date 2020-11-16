@@ -14,9 +14,9 @@ DROP TABLE ACTIVITYLOG CASCADE CONSTRAINTS;
 DROP TABLE WORKS_ON CASCADE CONSTRAINTS;
 
 CREATE TABLE PARK_ZONE(
-    ZoneID         Int           NOT NULL,
-    ZoneName       VarChar(50)   NOT NULL,
-    OpeningDate    Date          NULL,
+    ZoneID           Int             NOT NULL,
+    ZoneName         VarChar(50)     NOT NULL,
+    OpeningDate      Date            NULL,
     CONSTRAINT       ZONE_PK     PRIMARY KEY(ZoneID)
 );
 
