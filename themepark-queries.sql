@@ -2,7 +2,7 @@
 /*                                                            */
 /*    CSC 4480 Organization of Databases - Final Project      */
 /*    Louis Pitingolo, Henry Zinn, Pat Heard                  */
-/*    Theme Park Test Queries                                         */
+/*    Theme Park Test Queries                                 */
 /*                                                            */
 /**************************************************************/
 
