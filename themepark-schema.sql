@@ -36,7 +36,7 @@ CREATE TABLE EMPLOYEE(
     FirstName    VarChar(20)     NOT NULL,
     MiddelInit      Char(1)     NULL,
     LastName        VarChar(20)     NOT NULL,
-    JobTitle        VarChar(50)     NOT NULL,  -- maybe change to something else, it'll probably be implied by the place of work
+    JobTitle        VarChar(50)     NOT NULL, 
     Birthdate       Date            NOT NULL,
     Address         VarChar(50)     NULL,
     Salary          Int         NOT NULL,
