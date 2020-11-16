@@ -16,7 +16,7 @@ INSERT INTO park_zone VALUES ('4','Glove World', '15-MAR-2000');
 INSERT into attraction VALUES 
   ('1','Fiery Fist o Pain','Coaster','5-JUL-2007','open','4');
 INSERT into attraction VALUES 
-  ('2','Tunnel of Glove','Family ride','9-JUN-2004','open','4');
+  ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
 INSERT into attraction VALUES 
   ('3','El Toro','Coaster','4-AUG-1990','closed','3');  
 INSERT into attraction VALUES 
@@ -24,13 +24,15 @@ INSERT into attraction VALUES
 INSERT into attraction VALUES 
   ('5','Mystic Force','Coaster','16-SEP-1977','open','2'); 
 INSERT into attraction VALUES 
-  ('6','Jungle Fury Safari','Family ride','21-OCT-1979','closed','2'); 
+  ('6','Jungle Fury Safari','Family Ride','21-OCT-1979','closed','2'); 
 INSERT into attraction VALUES 
   ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
 INSERT into attraction VALUES 
-  ('7','Olive Garden','Food','28-FEB-2017','open','1');
+  ('8','Olive Garden','Food','28-FEB-2017','open','1');
 INSERT into attraction VALUES 
-  ('7','Ferris Wheel','Family ride','27-MAR-2016','open','1');
+  ('9','Ferris Wheel','Family Ride','27-MAR-2016','open','1');
+INSERT into attraction VALUES 
+  ('10','Bumper Cars','Family Ride','12-DEC-2017','open','1');
   
 -- Park Employees
 INSERT INTO employee VALUES 
@@ -40,28 +42,47 @@ INSERT INTO employee VALUES
 INSERT INTO employee VALUES 
   ('3','Henry','T','Zinn','Custodian','1-JAN-2000','124 Conch Street','60000');
 INSERT INTO employee VALUES 
-  ('4','Ron','J','Swanson','Manager','25-MAR-1969','34 Miracle Street','100000');
+  ('4','Ron','J','Swanson','Custodian','25-MAR-1969','34 Miracle Street','100000');
 INSERT INTO employee VALUES 
-  ('4','Albert','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','100000');
+  ('5','Albert','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','120000');
 INSERT INTO employee VALUES 
-  ('4','Thomas','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','100000');
+  ('6','Thomas','R','Smith','Manager','15-SEP-1961','104 Main Street','140000');
 INSERT INTO employee VALUES 
-  ('4','Albert','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','100000');
+  ('7','Andrew','P','Carson','Manager','24-JAN-1975','64 Zoo Lane','100000');
+INSERT INTO employee VALUES 
+  ('8','Karen','K','Johnson','Ride Operator','23-JUN-1981','243 Springfield Ave','55000');
+INSERT INTO employee VALUES 
+  ('9','Susan','L','Jones','Ride Operator','1-APR-1991','79 Park Ave','50000');  
+INSERT INTO employee VALUES 
+  ('10','Frank','H','James','Chef','25-OCT-1979','56 Mountain Ave','45000');
 
+-- 
 -- Employee Assignments
-INSERT INTO works_on VALUES ('1','1'); -- Pat works on Fist o Pain
+INSERT INTO works_on VALUES ('1','1', 10);
+INSERT INTO works_on VALUES ('2','4', 8);
+INSERT INTO works_on VALUES ('3','7', 6);
+INSERT INTO works_on VALUES ('4','5', 9);
+INSERT INTO works_on VALUES ('5','6', 14);
+INSERT INTO works_on VALUES ('6','2', 4);
+INSERT INTO works_on VALUES ('7','1', 12);
+INSERT INTO works_on VALUES ('8','10', 11);
+INSERT INTO works_on VALUES ('10','4', 10);
+INSERT INTO works_on VALUES ('10','1', 8);
+INSERT INTO works_on VALUES ('10','7', 10);
+INSERT INTO works_on VALUES ('10','8', 10);
+INSERT INTO works_on VALUES ('3','8', 6);
 
 -- Park Customers
-INSERT INTO customer VALUES ('1','John','Smith','Day pass');
-INSERT INTO customer VALUES ('2','Donatello','Halfshell','Day pass');
+INSERT INTO customer VALUES ('1','John','Smith','Seasonal Pass');
+INSERT INTO customer VALUES ('2','Donatello','Halfshell','Day Pass');
 INSERT INTO customer VALUES ('3','Michelangelo','Halfshell','Day pass');
 INSERT INTO customer VALUES ('4','Raphael','Halfshell','Day pass');
 INSERT INTO customer VALUES ('5','Leonardo','Halfshell','Day pass');
-INSERT INTO customer VALUES ('6','Blossom','Powerpuff','Day pass');
-INSERT INTO customer VALUES ('7','Bubbles','Powerpuff','Day pass');
-INSERT INTO customer VALUES ('8','Buttercup','Powerpuff','Day pass');
-INSERT INTO customer VALUES ('9','Eugene','Krabs','Day pass');
-INSERT INTO customer VALUES ('10','Sheldon','Plankton','Day pass');
+INSERT INTO customer VALUES ('6','Blossom','Powerpuff','Week Pass');
+INSERT INTO customer VALUES ('7','Bubbles','Powerpuff','Week Pass');
+INSERT INTO customer VALUES ('8','Buttercup','Powerpuff','Week Pass');
+INSERT INTO customer VALUES ('9','Eugene','Krabs','Seasonal Pass');
+INSERT INTO customer VALUES ('10','Sheldon','Plankton','Day Pass');
 
 -- Guest Activity Log
 INSERT INTO activitylog VALUES ('1','4','21-JUL-2020 12:20:00');
