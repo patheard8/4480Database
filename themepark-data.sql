@@ -27,6 +27,10 @@ INSERT into attraction VALUES
   ('6','Jungle Fury Safari','Family ride','21-OCT-1979','closed','2'); 
 INSERT into attraction VALUES 
   ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
+INSERT into attraction VALUES 
+  ('7','Olive Garden','Food','28-FEB-2017','open','1');
+INSERT into attraction VALUES 
+  ('7','Ferris Wheel','Family ride','27-MAR-2016','open','1');
   
 -- Park Employees
 INSERT INTO employee VALUES 
@@ -43,6 +47,7 @@ INSERT INTO employee VALUES
   ('4','Thomas','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','100000');
 INSERT INTO employee VALUES 
   ('4','Albert','B','Henderson','Manager','5-NOV-1966','490 Lancaster Ave','100000');
+
 -- Employee Assignments
 INSERT INTO works_on VALUES ('1','1'); -- Pat works on Fist o Pain
 
@@ -60,9 +65,20 @@ INSERT INTO customer VALUES ('10','Sheldon','Plankton','Day pass');
 
 -- Guest Activity Log
 INSERT INTO activitylog VALUES ('1','4','21-JUL-2020 12:20:00');
-INSERT INTO activitylog VALUES ('4','1','21-JUL-2020 12:20:00');
-INSERT INTO activitylog VALUES ('7','2','21-JUL-2020 12:20:00');
-INSERT INTO activitylog VALUES ('3','6','21-JUL-2020 12:20:00');
-INSERT INTO activitylog VALUES ('10','5','21-JUL-2020 12:20:00');
+INSERT INTO activitylog VALUES ('4','1','21-JUL-2020 12:43:00');
+INSERT INTO activitylog VALUES ('7','2','21-JUL-2020 12:57:00');
+INSERT INTO activitylog VALUES ('3','6','21-JUL-2020 1:10:00');
+INSERT INTO activitylog VALUES ('10','5','21-JUL-2020 1:16:00');
+INSERT INTO activitylog VALUES ('8','5','21-JUL-2020 1:50:00');
+INSERT INTO activitylog VALUES ('4','5','21-JUL-2020 2:23:00');
+INSERT INTO activitylog VALUES ('5','5','21-JUL-2020 2:44:00');
+INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 3:08:00');
+INSERT INTO activitylog VALUES ('9','5','21-JUL-2020 3:19:00');
+INSERT INTO activitylog VALUES ('3','5','21-JUL-2020 3:36:00');
+INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 4:20:00');
+INSERT INTO activitylog VALUES ('1','5','21-JUL-2020 4:36:00');
+INSERT INTO activitylog VALUES ('2','5','21-JUL-2020 5:29:00');
+INSERT INTO activitylog VALUES ('10','5','21-JUL-2020 5:51:00');
+INSERT INTO activitylog VALUES ('6','5','21-JUL-2020 5:51:00');
 
 
