@@ -59,35 +59,25 @@ INSERT INTO employee VALUES
 INSERT INTO employee VALUES 
   ('10','Frank','H','James','Chef','25-OCT-1979','56 Mountain Ave','45000');
 
-/*
-operators  1 8  9
-managers   5 6  7 
-chefs      2 10
-custodians 3 4
-
-coaster 1 3x 5
-ride 2 6x 9 10
-food 4 7 8 
-*/
 -- Employee Assignments
-INSERT INTO works_on VALUES ('1','1', 10);
-INSERT INTO works_on VALUES ('8','5', 11);
-INSERT INTO works_on VALUES ('9','1', 9);
-INSERT INTO works_on VALUES ('1','5', 12);
-INSERT INTO works_on VALUES ('9','5', 8);
+INSERT INTO works_on VALUES ('1','1', 4);
+INSERT INTO works_on VALUES ('8','5', 9);
+INSERT INTO works_on VALUES ('9','1', 3);
+INSERT INTO works_on VALUES ('1','5', 4);
+INSERT INTO works_on VALUES ('9','5', 5);
 
-INSERT INTO works_on VALUES ('5','9', 14);
+INSERT INTO works_on VALUES ('5','9', 8);
 INSERT INTO works_on VALUES ('6','2', 4);
-INSERT INTO works_on VALUES ('7','10', 12);
-INSERT INTO works_on VALUES ('6','10', 12);
+INSERT INTO works_on VALUES ('7','10', 9);
+INSERT INTO works_on VALUES ('6','10', 5);
 
 INSERT INTO works_on VALUES ('2','4', 8);
-INSERT INTO works_on VALUES ('10','7', 8);
-INSERT INTO works_on VALUES ('10','8', 10);
+INSERT INTO works_on VALUES ('10','7', 3);
+INSERT INTO works_on VALUES ('10','8', 5);
 
-INSERT INTO works_on VALUES ('3','9', 6);
-INSERT INTO works_on VALUES ('4','5', 9);
-INSERT INTO works_on VALUES ('4','7', 10);
+INSERT INTO works_on VALUES ('3','9', 7);
+INSERT INTO works_on VALUES ('4','5', 6);
+INSERT INTO works_on VALUES ('4','7', 2);
 
 -- Park Customers
 INSERT INTO customer VALUES ('1','John','Smith','Seasonal Pass');
