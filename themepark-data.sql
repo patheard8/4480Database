@@ -28,6 +28,8 @@ INSERT into attraction VALUES
   ('9','Ferris Wheel','Family Ride','27-MAR-2016','open','1');
 INSERT into attraction VALUES 
   ('10','Bumper Cars','Family Ride','12-DEC-2017','open','1');
+INSERT into attraction VALUES 
+  ('12','Space Patrol Delta Lazer Tag','Family Ride','9-JAN-1993','closed','3');
 
 INSERT into attraction VALUES 
   ('4','Dippin Dots','Food','4-JUL-1985','open','3'); 
