@@ -1,9 +1,9 @@
 /************************************************************************/
-/*																		*/
+/*                                                                      */
 /*	CSC 4480 Organization of Databases - Final Project                  */
-/*	Louis Pitingolo, Henry Zinn, Pat Heard								*/
-/*	Theme Park Schema                     								*/
-/*																		*/
+/*	Louis Pitingolo, Henry Zinn, Pat Heard                              */
+/*	Theme Park Schema                                                   */
+/*                                                                      */
 /************************************************************************/
 
 DROP TABLE PARK_ZONE CASCADE CONSTRAINTS;
