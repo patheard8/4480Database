@@ -19,7 +19,7 @@ INSERT into attraction VALUES ('5','Mystic Force','Coaster','16-SEP-1977','open'
 INSERT into attraction VALUES ('14','Kingda Ka','Coaster','11-DEC-2018','open','1');
 INSERT into attraction VALUES ('16','Twister','Coaster','8-FEB-2019','open','1');
 INSERT into attraction VALUES ('18','Phoenix','Coaster','22-APR-1991','open','3');
-INSERT into attraction VALUES ('19','Phoenix','Coaster','5-MAY-2009','closed','4');
+INSERT into attraction VALUES ('19','Nitro','Coaster','5-MAY-2009','closed','4');
 
 INSERT into attraction VALUES ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
 INSERT into attraction VALUES ('6','Jungle Fury Safari','Family Ride','21-OCT-1979','closed','2'); 
@@ -47,6 +47,7 @@ INSERT INTO employee VALUES ('7','Andrew','P','Carson','Ride Operator','24-JAN-1
 INSERT INTO employee VALUES ('8','Karen','K','Johnson','Ride Operator','23-JUN-1981','243 Springfield Ave','55000');
 INSERT INTO employee VALUES ('9','Susan','L','Jones','Ride Operator','1-APR-1991','79 Park Ave','50000');  
 INSERT INTO employee VALUES ('10','Gordon','J','Ramsay','Chef','8-NOV-1966','56 Mountain Ave','45000');
+INSERT INTO employee VALUES ('11','Guy','P','Fieri','Chef','25-JAN-1973','44 Locust Ave','50000');
 
 -- Employee Assignments
 INSERT INTO works_on VALUES ('1','1', 4);
@@ -60,9 +61,11 @@ INSERT INTO works_on VALUES ('7','10', 9);
 INSERT INTO works_on VALUES ('6','5', 5);
 
 INSERT INTO works_on VALUES ('2','4', 4);
+INSERT INTO works_on VALUES ('11','20', 4);
 INSERT INTO works_on VALUES ('10','7', 3);
 INSERT INTO works_on VALUES ('10','8', 5);
 INSERT INTO works_on VALUES ('2','11', 4);
+INSERT INTO works_on VALUES ('11','15', 4);
 
 INSERT INTO works_on VALUES ('3','9', 7);
 INSERT INTO works_on VALUES ('4','5', 6);
@@ -84,16 +87,18 @@ INSERT INTO customer VALUES ('10','Sheldon','Plankton','Day Pass');
 INSERT INTO activitylog VALUES ('1','4',TO_DATE('21-JUL-2020 12:20:00','dd-MON-yyyy hh24:mi:ss'));
 INSERT INTO activitylog VALUES ('4','1',TO_DATE('21-JUL-2020 12:43:00','dd-MON-yyyy hh24:mi:ss'));
 INSERT INTO activitylog VALUES ('7','2',TO_DATE('21-JUL-2020 12:57:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('3','6',TO_DATE('21-JUL-2020 13:10:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('3','16',TO_DATE('21-JUL-2020 13:10:00','dd-MON-yyyy hh24:mi:ss'));
 INSERT INTO activitylog VALUES ('10','5',TO_DATE('21-JUL-2020 13:16:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('8','5',TO_DATE('21-JUL-2020 13:50:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('4','5',TO_DATE('21-JUL-2020 14:23:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('8','8',TO_DATE('21-JUL-2020 13:50:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('4','13',TO_DATE('21-JUL-2020 14:23:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('7','11',TO_DATE('21-JUL-2020 14:35:00','dd-MON-yyyy hh24:mi:ss'));
 INSERT INTO activitylog VALUES ('5','5',TO_DATE('21-JUL-2020 14:44:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('6','5',TO_DATE('21-JUL-2020 15:08:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('9','5',TO_DATE('21-JUL-2020 15:19:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('3','5',TO_DATE('21-JUL-2020 15:36:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('6','5',TO_DATE('21-JUL-2020 16:20:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('6','7',TO_DATE('21-JUL-2020 15:08:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('9','16',TO_DATE('21-JUL-2020 15:19:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('3','20',TO_DATE('21-JUL-2020 15:36:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('6','11',TO_DATE('21-JUL-2020 16:20:00','dd-MON-yyyy hh24:mi:ss'));
 INSERT INTO activitylog VALUES ('1','5',TO_DATE('21-JUL-2020 16:36:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('2','5',TO_DATE('21-JUL-2020 17:29:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('10','5',TO_DATE('21-JUL-2020 17:51:00','dd-MON-yyyy hh24:mi:ss'));
-INSERT INTO activitylog VALUES ('6','5',TO_DATE('21-JUL-2020 17:51:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('2','15',TO_DATE('21-JUL-2020 17:29:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('10','18',TO_DATE('21-JUL-2020 17:51:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('6','14',TO_DATE('21-JUL-2020 17:51:00','dd-MON-yyyy hh24:mi:ss'));
+INSERT INTO activitylog VALUES ('8','1',TO_DATE('21-JUL-2020 18:09:00','dd-MON-yyyy hh24:mi:ss'));
