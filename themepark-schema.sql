@@ -23,9 +23,9 @@ CREATE TABLE PARK_ZONE(
 CREATE TABLE ATTRACTION(
     AttractionID     Int             NOT NULL,
     AttractionName   VarChar(50)     NOT NULL,
-    AttractionType   VarChar(50)     NOT NULL, -- ride, restaurant, show, waterpark, etc.
+    AttractionType   VarChar(50)     NOT NULL,
     DateOpened       Date            NOT NULL,
-    CurrStatus       VarChar(15)     NOT NULL, --active, inactive, undermaintenance
+    CurrStatus       VarChar(15)     NOT NULL,
     ZoneID           Int             NOT NULL,
     CONSTRAINT       ATTRACTION_PK      PRIMARY KEY(AttractionID),
     FOREIGN KEY (ZoneID) REFERENCES Park_Zone(ZoneID)
