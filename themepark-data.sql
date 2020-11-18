@@ -19,6 +19,8 @@ INSERT into attraction VALUES
   ('3','El Toro','Coaster','4-AUG-1990','closed','3');  
 INSERT into attraction VALUES 
   ('5','Mystic Force','Coaster','16-SEP-1977','open','2'); 
+INSERT into attraction VALUES 
+  ('14','Kingda Ka','Coaster','11-DEC-2018','open','1'); 
 
 INSERT into attraction VALUES 
   ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
@@ -39,7 +41,9 @@ INSERT into attraction VALUES
   ('8','Olive Garden','Food','28-FEB-2017','open','1');
 INSERT into attraction VALUES 
   ('11','PF Changs China Bistro','Food','3-AUG-2001','open','4');
-  
+INSERT into attraction VALUES 
+  ('13','Denny's','Food','8-MAR-1982','open','2');
+
 -- Park Employees
 INSERT INTO employee VALUES 
   ('1','Pat','J','Heard','Ride Operator','08-AUG-1998','123 Wallaby Way','40000');
