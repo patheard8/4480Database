@@ -16,12 +16,13 @@ INSERT INTO park_zone VALUES ('4','Glove World', '15-MAR-2000');
 INSERT into attraction VALUES ('1','Fiery Fist o Pain','Coaster','5-JUL-2007','open','4');
 INSERT into attraction VALUES ('3','El Toro','Coaster','4-AUG-1990','closed','3');  
 INSERT into attraction VALUES ('5','Mystic Force','Coaster','16-SEP-1977','open','2'); 
-INSERT into attraction VALUES ('14','Kingda Ka','Coaster','11-DEC-2018','open','1'); 
+INSERT into attraction VALUES ('14','Kingda Ka','Coaster','11-DEC-2018','open','1');
 
 INSERT into attraction VALUES ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
 INSERT into attraction VALUES ('6','Jungle Fury Safari','Family Ride','21-OCT-1979','closed','2'); 
 INSERT into attraction VALUES ('9','Ferris Wheel','Family Ride','27-MAR-2016','open','1');
 INSERT into attraction VALUES ('10','Bumper Cars','Family Ride','12-DEC-2017','open','1');
+INSERT into attraction VALUES ('12','Space Patrol Delta Lazer Tag','Family Ride','9-JAN-1993','closed','3');
 INSERT into attraction VALUES ('12','Space Patrol Delta Lazer Tag','Family Ride','9-JAN-1993','closed','3');
 
 INSERT into attraction VALUES ('4','Dippin Dots','Food','4-JUL-1985','open','3'); 
@@ -29,7 +30,8 @@ INSERT into attraction VALUES ('7','Johnny Rockets','Food','25-DEC-1981','open',
 INSERT into attraction VALUES ('8','Olive Garden','Food','28-FEB-2017','open','1');
 INSERT into attraction VALUES ('11','PF Changs China Bistro','Food','3-AUG-2001','open','4');
 INSERT into attraction VALUES ('13','Denny's','Food','8-MAR-1982','open','2');
-
+INSERT into attraction VALUES ('15','Nathan's Hot dogs','Food','4-SEP-1998','open','3');
+                               
 -- Park Employees
 INSERT INTO employee VALUES ('1','Pat','J','Heard','Ride Operator','08-AUG-1998','123 Wallaby Way','40000');
 INSERT INTO employee VALUES ('2','Louis','G','Pitingolo','Chef','29-SEP-1999','456 Sesame Street','80000');
