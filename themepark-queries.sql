@@ -12,6 +12,7 @@ from Employee E left outer join Works_On W on E.EmployeeId = W.EmployeeId
 where W.AttractionId in (select A.AttractionId
                         from Attraction A
                         where A.ZoneId = '4')
+group by E.EmployeeId, E.FirstName, E.LastName
 order by E.EmployeeId asc;
 
 -- Query 2: Checking open attractions in Cedar Rapids
