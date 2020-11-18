@@ -13,58 +13,34 @@ INSERT INTO park_zone VALUES ('3','Great Adventure', '1-OCT-1982');
 INSERT INTO park_zone VALUES ('4','Glove World', '15-MAR-2000');
 
 -- Park Attractions
-INSERT into attraction VALUES 
-  ('1','Fiery Fist o Pain','Coaster','5-JUL-2007','open','4');
-INSERT into attraction VALUES 
-  ('3','El Toro','Coaster','4-AUG-1990','closed','3');  
-INSERT into attraction VALUES 
-  ('5','Mystic Force','Coaster','16-SEP-1977','open','2'); 
-INSERT into attraction VALUES 
-  ('14','Kingda Ka','Coaster','11-DEC-2018','open','1'); 
+INSERT into attraction VALUES ('1','Fiery Fist o Pain','Coaster','5-JUL-2007','open','4');
+INSERT into attraction VALUES ('3','El Toro','Coaster','4-AUG-1990','closed','3');  
+INSERT into attraction VALUES ('5','Mystic Force','Coaster','16-SEP-1977','open','2'); 
+INSERT into attraction VALUES ('14','Kingda Ka','Coaster','11-DEC-2018','open','1'); 
 
-INSERT into attraction VALUES 
-  ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
-INSERT into attraction VALUES 
-  ('6','Jungle Fury Safari','Family Ride','21-OCT-1979','closed','2'); 
-INSERT into attraction VALUES 
-  ('9','Ferris Wheel','Family Ride','27-MAR-2016','open','1');
-INSERT into attraction VALUES 
-  ('10','Bumper Cars','Family Ride','12-DEC-2017','open','1');
-INSERT into attraction VALUES 
-  ('12','Space Patrol Delta Lazer Tag','Family Ride','9-JAN-1993','closed','3');
+INSERT into attraction VALUES ('2','Tunnel of Glove','Family Ride','9-JUN-2004','open','4');
+INSERT into attraction VALUES ('6','Jungle Fury Safari','Family Ride','21-OCT-1979','closed','2'); 
+INSERT into attraction VALUES ('9','Ferris Wheel','Family Ride','27-MAR-2016','open','1');
+INSERT into attraction VALUES ('10','Bumper Cars','Family Ride','12-DEC-2017','open','1');
+INSERT into attraction VALUES ('12','Space Patrol Delta Lazer Tag','Family Ride','9-JAN-1993','closed','3');
 
-INSERT into attraction VALUES 
-  ('4','Dippin Dots','Food','4-JUL-1985','open','3'); 
-INSERT into attraction VALUES 
-  ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
-INSERT into attraction VALUES 
-  ('8','Olive Garden','Food','28-FEB-2017','open','1');
-INSERT into attraction VALUES 
-  ('11','PF Changs China Bistro','Food','3-AUG-2001','open','4');
-INSERT into attraction VALUES 
-  ('13','Denny's','Food','8-MAR-1982','open','2');
+INSERT into attraction VALUES ('4','Dippin Dots','Food','4-JUL-1985','open','3'); 
+INSERT into attraction VALUES ('7','Johnny Rockets','Food','25-DEC-1981','open','2'); 
+INSERT into attraction VALUES ('8','Olive Garden','Food','28-FEB-2017','open','1');
+INSERT into attraction VALUES ('11','PF Changs China Bistro','Food','3-AUG-2001','open','4');
+INSERT into attraction VALUES ('13','Denny's','Food','8-MAR-1982','open','2');
 
 -- Park Employees
-INSERT INTO employee VALUES 
-  ('1','Pat','J','Heard','Ride Operator','08-AUG-1998','123 Wallaby Way','40000');
-INSERT INTO employee VALUES 
-  ('2','Louis','G','Pitingolo','Chef','29-SEP-1999','456 Sesame Street','80000');
-INSERT INTO employee VALUES 
-  ('3','Henry','T','Zinn','Custodian','1-JAN-2000','124 Conch Street','60000');
-INSERT INTO employee VALUES 
-  ('4','Ron','J','Swanson','Custodian','25-MAR-1969','34 Miracle Street','100000');
-INSERT INTO employee VALUES 
-  ('5','Albert','B','Henderson','Ride Operator','5-NOV-1966','490 Lancaster Ave','120000');
-INSERT INTO employee VALUES 
-  ('6','Thomas','R','Smith','Ride Operator','15-SEP-1961','104 Main Street','140000');
-INSERT INTO employee VALUES 
-  ('7','Andrew','P','Carson','Ride Operator','24-JAN-1975','64 Zoo Lane','100000');
-INSERT INTO employee VALUES 
-  ('8','Karen','K','Johnson','Ride Operator','23-JUN-1981','243 Springfield Ave','55000');
-INSERT INTO employee VALUES 
-  ('9','Susan','L','Jones','Ride Operator','1-APR-1991','79 Park Ave','50000');  
-INSERT INTO employee VALUES 
-  ('10','Gordon','J','Ramsay','Chef','8-NOV-1966','56 Mountain Ave','45000');
+INSERT INTO employee VALUES ('1','Pat','J','Heard','Ride Operator','08-AUG-1998','123 Wallaby Way','40000');
+INSERT INTO employee VALUES ('2','Louis','G','Pitingolo','Chef','29-SEP-1999','456 Sesame Street','80000');
+INSERT INTO employee VALUES ('3','Henry','T','Zinn','Custodian','1-JAN-2000','124 Conch Street','60000');
+INSERT INTO employee VALUES ('4','Ron','J','Swanson','Custodian','25-MAR-1969','34 Miracle Street','100000');
+INSERT INTO employee VALUES ('5','Albert','B','Henderson','Ride Operator','5-NOV-1966','490 Lancaster Ave','120000');
+INSERT INTO employee VALUES ('6','Thomas','R','Smith','Ride Operator','15-SEP-1961','104 Main Street','140000');
+INSERT INTO employee VALUES ('7','Andrew','P','Carson','Ride Operator','24-JAN-1975','64 Zoo Lane','100000');
+INSERT INTO employee VALUES ('8','Karen','K','Johnson','Ride Operator','23-JUN-1981','243 Springfield Ave','55000');
+INSERT INTO employee VALUES ('9','Susan','L','Jones','Ride Operator','1-APR-1991','79 Park Ave','50000');  
+INSERT INTO employee VALUES ('10','Gordon','J','Ramsay','Chef','8-NOV-1966','56 Mountain Ave','45000');
 
 -- Employee Assignments
 INSERT INTO works_on VALUES ('1','1', 4);
